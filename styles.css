@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+header h1 {
+  padding: 1.5%;
+  background: #3299cd;
+  color: #fff;
+  margin: 0;
+  font-weight: lighter;
+  font-size: 350%;
+}
+
+nav {
+  padding: 0.3% 1.5%;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlinks {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navlinks li {
+  font-weight: bolder;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navlink:hover {
+  cursor: pointer;
+}
+
+main {
+  padding: 0 4%;
+}
+
+.news {
+  border: 1px solid lightgray;
+  width: 55%;
+  padding: 1%;
+  margin: 2% 0;
+}
+
+.news h2 {
+  margin: 0;
+}
+
+.news ul {
+  list-style-type: none;
+  margin: 1% 0 0 0;
+  padding: 0;
+}
+
+.news ul li {
+  margin: 0 0 2% 0;
+}
+
+.news ul li:before {
+  content: "-";
+}
+
+.welcome {
+  width: 80%;
+}
