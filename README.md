@@ -4,4 +4,4 @@ A static web page given as a `Task-1` in full stack training in **Technovert Int
 
 This page is generated only using HTML and CSS.
 
-Hosted at [https://akashdoppalapudi.github.io/frontend-task-1/](https://akashdoppalapudi.github.io/frontend-task-1/)
+Hosted at <a href="https://akashdoppalapudi.github.io/frontend-task-1/" target="_blank">https://akashdoppalapudi.github.io/frontend-task-1/</a>S
