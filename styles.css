@@ -26,13 +26,14 @@ nav {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navlinks {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 30%;
   justify-content: space-between;
   list-style-type: none;
   font-family: sans-serif;
@@ -40,6 +41,9 @@ nav {
 
 .navlinks li {
   font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navlink {
@@ -49,6 +53,12 @@ nav {
 
 .navlink:hover {
   cursor: pointer;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
