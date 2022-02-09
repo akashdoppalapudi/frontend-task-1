@@ -8,20 +8,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Century Gothic";
+  font-family: sans-serif;
 }
 
 header h1 {
-  padding: 1.5%;
+  font-family: "Century Gothic";
+  padding: 2%;
   background: #3299cd;
   color: #fff;
   margin: 0;
   font-weight: lighter;
-  font-size: 350%;
+  font-size: 400%;
 }
 
 nav {
-  padding: 0.3% 1.5%;
+  padding: 0.3% 2%;
   background: #333;
   color: #fff;
   display: flex;
@@ -49,6 +50,7 @@ nav {
 .navlink {
   text-decoration: none;
   color: #fff;
+  font-size: 120%;
 }
 
 .navlink:hover {
@@ -67,9 +69,9 @@ main {
 
 .news {
   border: 1px solid lightgray;
-  width: 55%;
+  width: 57%;
   padding: 1%;
-  margin: 2% 0;
+  margin-top: 2%;
 }
 
 .news h2 {
@@ -78,12 +80,17 @@ main {
 
 .news ul {
   list-style-type: none;
-  margin: 1% 0 0 0;
+  margin: 1% 0 1% 1.5%;
   padding: 0;
 }
 
 .news ul li {
-  margin: 0 0 2% 0;
+  margin-bottom: 2%;
+}
+
+.news ul li span {
+  position: relative;
+  left: 1%;
 }
 
 .news ul li:before {
