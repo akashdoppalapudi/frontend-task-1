@@ -76,6 +76,7 @@ main {
 
 .news h2 {
   margin: 0;
+  font-size: 130%;
 }
 
 .news ul {
@@ -99,4 +100,63 @@ main {
 
 .welcome {
   width: 80%;
+}
+
+.welcome h2 {
+  font-size: 130%;
+}
+
+@media only screen and (max-width: 1470px) {
+  .navlinks {
+    width: 35%;
+  }
+
+  .news {
+    width: 70%;
+  }
+
+  .welcome {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navlinks {
+    width: 40%;
+  }
+
+  .news {
+    width: 80%;
+  }
+
+  .welcome {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navlinks {
+    width: 50%;
+  }
+
+  .news {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .navlinks {
+    width: 80%;
+    font-size: 70%;
+  }
+
+  header h1 {
+    font-size: 300%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header h1 {
+    text-align: center;
+  }
 }
