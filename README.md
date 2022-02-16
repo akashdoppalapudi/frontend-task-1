@@ -8,8 +8,4 @@ Hosted at <a href="https://akashdoppalapudi.github.io/frontend-task-1/" target="
 
 ## Target Image
 
-![Target Image](images/target.png?raw=true "Target Image")
-
-## Achieved images
-
-![Achieved Image](images/achieved.png?raw=true "Achieved Image")
+![Target Image](images/target.png?raw=true 'Target Image')
