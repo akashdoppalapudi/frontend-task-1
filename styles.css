@@ -1,162 +1,167 @@
 @font-face {
-  font-family: "Century Gothic";
-  src: url("./fonts/Century Gothic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Century Gothic';
+	src: url('./fonts/Century Gothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
 
 header h1 {
-  font-family: "Century Gothic";
-  padding: 2%;
-  background: #3299cd;
-  color: #fff;
-  margin: 0;
-  font-weight: lighter;
-  font-size: 400%;
+	font-family: 'Century Gothic';
+	padding: 2%;
+	background: #3299cd;
+	color: #fff;
+	margin: 0;
+	font-weight: lighter;
+	font-size: 400%;
 }
 
 nav {
-  padding: 0.3% 2%;
-  background: #333;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	padding: 0.3% 2%;
+	background: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .navlinks {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  width: 30%;
-  justify-content: space-between;
-  list-style-type: none;
-  font-family: sans-serif;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	width: 30%;
+	justify-content: space-between;
+	list-style-type: none;
+	font-family: sans-serif;
 }
 
 .navlinks li {
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navlink {
-  text-decoration: none;
-  color: #fff;
-  font-size: 120%;
+	text-decoration: none;
+	color: #fff;
+	font-size: 120%;
 }
 
 .navlink:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 main {
-  padding: 0 4%;
+	padding: 0 4%;
 }
 
 .news {
-  border: 1px solid lightgray;
-  width: 57%;
-  padding: 1%;
-  margin-top: 2%;
+	border: 1px solid lightgray;
+	width: 57%;
+	padding: 1%;
+	margin-top: 2%;
 }
 
 .news h2 {
-  margin: 0;
-  font-size: 130%;
+	margin: 0;
+	font-size: 130%;
 }
 
 .news ul {
-  list-style-type: none;
-  margin: 1% 0 1% 1.5%;
-  padding: 0;
+	list-style-type: none;
+	margin: 1% 0 1% 1.5%;
+	padding: 0;
 }
 
 .news ul li {
-  margin-bottom: 2%;
+	margin-bottom: 2%;
 }
 
 .news ul li span {
-  position: relative;
-  left: 1%;
+	position: relative;
+	left: 1%;
 }
 
 .news ul li:before {
-  content: "-";
+	content: '-';
 }
 
 .welcome {
-  width: 80%;
+	width: 80%;
 }
 
 .welcome h2 {
-  font-size: 130%;
+	font-size: 130%;
 }
 
 @media only screen and (max-width: 1470px) {
-  .navlinks {
-    width: 35%;
-  }
+	.navlinks {
+		width: 35%;
+	}
 
-  .news {
-    width: 70%;
-  }
+	.news {
+		width: 70%;
+	}
 
-  .welcome {
-    width: 90%;
-  }
+	.welcome {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 1200px) {
-  .navlinks {
-    width: 40%;
-  }
+	.navlinks {
+		width: 40%;
+	}
 
-  .news {
-    width: 80%;
-  }
+	.news {
+		width: 80%;
+	}
 
-  .welcome {
-    width: 100%;
-  }
+	.welcome {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 1000px) {
-  .navlinks {
-    width: 50%;
-  }
+	.navlinks {
+		width: 50%;
+	}
 
-  .news {
-    width: 100%;
-  }
+	.news {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 780px) {
-  .navlinks {
-    width: 80%;
-    font-size: 70%;
-  }
+	.navlinks {
+		width: 60%;
+		font-size: 80%;
+	}
 
-  header h1 {
-    font-size: 300%;
-  }
+	header h1 {
+		font-size: 300%;
+	}
 }
 
 @media only screen and (max-width: 500px) {
-  header h1 {
-    text-align: center;
-  }
+	header h1 {
+		text-align: center;
+	}
+
+	.navlinks {
+		width: 80%;
+		font-size: 70%;
+	}
 }
